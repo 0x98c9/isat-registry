@@ -1,4 +1,4 @@
-# ISAT Registry
+# IsAt.College Registry
 
 
 **Official Site:** [isat.college](https://isat.college)

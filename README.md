@@ -17,6 +17,8 @@ isat-registry/
 
 ## How to Add Your Profile
 
+[![Create Profile Now](https://img.shields.io/badge/Create_Profile_Now-blue?style=for-the-badge&logo=github)](https://github.com/0x98c9/isat-registry/new/main/students)
+
 1.  **Fork this repository.**
 2.  **Create a new file** in the `students/` directory.
     *   The filename must be your desired username (e.g., `johndoe.json`).

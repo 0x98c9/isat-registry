@@ -6,45 +6,49 @@
     "accentColor": "#6366f1"
   },
   "profile": {
-    "name": "Sony",
-    "tagline": "Building the future with code",
-    "avatar": "https://github.com/sony.png",
-    "location": "San Francisco, CA",
-    "email": "sony@isat.college"
+    "name": "Humayan Al Rosid",
+    "tagline": "It works on my machine... usually",
+    "avatar": "https://github.com/ghost.png",
+    "location": "West Bengal, India",
+    "email": "hi@isat.college",
+    "resumeUrl": ""
   },
   "socials": [
-    {
-      "platform": "github",
-      "url": "https://github.com/sony"
-    },
-    {
-      "platform": "twitter",
-      "url": "https://twitter.com/sony"
-    }
+    { "platform": "github", "url": "https://github.com/0x98c9" },
+    { "platform": "website", "url": "https://isat.college" }
   ],
   "education": [
     {
-      "institution": "ISAT College",
-      "degree": "B.Tech in Computer Science",
-      "year": "2023-2027"
+      "institution": "IsAt College",
+      "degree": "PhD in Centering Divs",
+      "year": "2025–Present",
+      "grade": "D (Developer)"
+    },
+    {
+      "institution": "University of YouTube",
+      "degree": "B.S. in Watching Tutorials",
+      "year": "2021–2024",
+      "grade": "2x Speed"
     }
   ],
   "skills": [
-    {
-      "category": "Frontend",
-      "items": ["React", "TypeScript", "Tailwind CSS"]
-    },
-    {
-      "category": "Backend",
-      "items": ["Node.js", "Python", "PostgreSQL"]
-    }
+    { "category": "Core", "items": ["Astro", "Next.js", "React", "TypeScript"] },
+    { "category": "Styling", "items": ["Tailwind CSS"] },
+    { "category": "Tools", "items": ["Cloudflare", "Firebase", "GitHub Actions"] },
+    { "category": "Focus Areas", "items": ["SaaS", "Open Source", "AI-Assisted Development"] }
   ],
   "projects": [
     {
-      "name": "ISAT Registry",
-      "description": "Centralized student registry for ISAT College",
-      "url": "https://github.com/0x98c9/isat-registry",
-      "techStack": ["JSON", "GitHub Actions"]
+      "name": "isat.college",
+      "description": "An open-source student identity platform where learners claim their subdomain with one PR.",
+      "url": "https://isat.college",
+      "techStack": ["Astro", "TypeScript", "Tailwind"]
+    },
+    {
+      "name": "CopyRegex",
+      "description": "The ultimate open-source regex reference library for developers.",
+      "url": "",
+      "techStack": ["Astro", "TypeScript", "Tailwind"]
     }
   ]
 }

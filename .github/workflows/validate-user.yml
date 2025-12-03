@@ -1,0 +1,80 @@
+name: Validate Student Profile
+
+on:
+  pull_request:
+    paths:
+      - 'students/*.json'
+
+jobs:
+  validate-filename:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for banned filenames
+        run: |
+          # List of banned usernames
+          BANNED_NAMES=(
+            # System & Admin
+            "admin" "root" "system" "moderator" "support" "help" "info" "contact"
+            "security" "privacy" "legal" "terms" "about" "status" "blog" "docs"
+            "api" "config" "test" "dev" "staging" "prod" "null" "undefined" "void"
+            
+            # Project Specific
+            "isat" "isat-college" "registry" "official" "staff" "team" "bot"
+            
+            # Tech Brands
+            "google" "microsoft" "apple" "amazon" "facebook" "meta" "netflix"
+            "tesla" "twitter" "instagram" "tiktok" "linkedin" "github" "gitlab"
+            "openai" "anthropic" "deepmind" "vercel" "netlify" "heroku" "aws" "azure" "gcp"
+            
+            # Universities & Education
+            "harvard" "stanford" "mit" "oxford" "cambridge" "yale" "princeton"
+            "university" "college" "school" "academy" "institute"
+            
+            # Explicit
+            "badword"
+          )
+          
+          # Get changed files in the students directory
+          # Using git diff to compare against the base branch
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.base_ref }} HEAD | grep '^students/' || true)
+          
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No student files changed."
+            exit 0
+          fi
+
+          HAS_ERROR=0
+          
+          for file in $CHANGED_FILES; do
+            # Extract filename without path and extension
+            filename=$(basename "$file" .json)
+            
+            # Check against banned names
+            for banned in "${BANNED_NAMES[@]}"; do
+              if [[ "$filename" == "$banned" ]]; then
+                echo "::error file=$file::The username '$filename' is not allowed."
+                HAS_ERROR=1
+              fi
+            done
+            
+            # Check for uppercase characters
+            if [[ "$filename" =~ [A-Z] ]]; then
+              echo "::error file=$file::The username '$filename' must be lowercase."
+              HAS_ERROR=1
+            fi
+            
+            # Check for special characters (only alphanumeric and hyphens allowed)
+            if [[ ! "$filename" =~ ^[a-z0-9-]+$ ]]; then
+              echo "::error file=$file::The username '$filename' contains invalid characters. Only lowercase letters, numbers, and hyphens are allowed."
+              HAS_ERROR=1
+            fi
+          done
+          
+          if [ $HAS_ERROR -eq 1 ]; then
+            exit 1
+          fi

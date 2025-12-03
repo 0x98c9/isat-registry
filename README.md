@@ -20,7 +20,10 @@ isat-registry/
 1.  **Fork this repository.**
 2.  **Create a new file** in the `students/` directory.
     *   The filename must be your desired username (e.g., `johndoe.json`).
-    *   The filename must be lowercase and unique.
+    *   **Rules:**
+        *   Must be lowercase.
+        *   Must contain only letters, numbers, and hyphens.
+        *   Must NOT be a reserved word (e.g., `admin`, `root`, brand names, university names).
 3.  **Add your profile data** following the schema below.
 4.  **Submit a Pull Request.**
 
@@ -88,7 +91,9 @@ Copy the following template and fill in your details.
 
 ## Validation
 
-Your Pull Request will be reviewed to ensure:
-1.  The JSON is valid.
-2.  The schema structure is correct.
-3.  The content is appropriate.
+An automated bot will check your Pull Request to ensure:
+1.  **Valid Username:** The filename is not on the banned list (e.g., brands, institutions, system terms).
+2.  **Valid JSON:** The file contains valid JSON syntax.
+3.  **Correct Schema:** The structure matches the required profile format.
+
+If the bot detects a banned username or invalid format, your PR will be automatically marked with a ❌.

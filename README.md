@@ -6,6 +6,9 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Students](https://img.shields.io/badge/Students-Growing-purple?style=flat-square)](https://github.com/0x98c9/isat-registry/tree/main/students)
 
+
+> **License:** The content of this registry (schemas, validation scripts, and public profile data) is licensed under the MIT License. This ensures you own your data and can take it anywhere. The isat.college rendering engine is proprietary.
+
 This is the **public registry** for [isat.college](https://isat.college) - a Git-backed student identity platform. Every student profile lives here as a JSON file, giving you complete ownership and portability of your data.
 
 ![isat.college Demo](public/isat-college-demo.png)

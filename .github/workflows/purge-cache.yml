@@ -1,0 +1,44 @@
+name: Purge CDN Cache
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'students/**'
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Get Changed Files
+        id: files
+        uses: jitterbit/get-changed-files@v1
+        with:
+          format: 'json'
+
+      - name: Purge jsDelivr
+        run: |
+          import json
+          import os
+          import urllib.request
+
+          # Get list of changed files
+          files = json.loads('${{ steps.files.outputs.added_modified }}')
+          
+          # REPLACE WITH YOUR USERNAME/REPO
+          BASE_URL = "https://purge.jsdelivr.net/gh/0x98c9/isat-registry@main/"
+
+          for file_path in files:
+              if file_path.startswith("students/"):
+                  url = BASE_URL + file_path
+                  print(f"Purging: {url}")
+                  try:
+                      with urllib.request.urlopen(url) as response:
+                          print(f"Status: {response.getcode()}")
+                  except Exception as e:
+                      print(f"Failed to purge {url}: {e}")
+
+        shell: python

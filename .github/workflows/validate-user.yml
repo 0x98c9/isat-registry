@@ -18,25 +18,27 @@ jobs:
         run: |
           # List of banned usernames
           BANNED_NAMES=(
-            # System & Admin
-            "admin" "root" "system" "moderator" "support" "help" "info" "contact"
-            "security" "privacy" "legal" "terms" "about" "status" "blog" "docs"
-            "api" "config" "test" "dev" "staging" "prod" "null" "undefined" "void"
+            "admin" "administrator" "root" "system" "moderator" "mod" 
+            "support" "help" "info" "contact" "security" "privacy" 
+            "legal" "terms" "about" "status" "blog" "docs" "documentation"
             
-            # Project Specific
-            "isat" "isat-college" "registry" "official" "staff" "team" "bot"
+            "api" "config" "test" "demo" "dev" "staging" "prod" 
+            "null" "undefined" "void" "login" "register" "auth"
+            "founder" "ceo" "cto" "owner" "president" "manager"
+            "official" "staff" "team" "bot" "noreply" "registry"
+            "isat" "isat-college" "isatcollege"
+
+            "google" "alphabet" "microsoft" "apple" "amazon" "facebook" "meta" 
+            "netflix" "tesla" "twitter" "x" "instagram" "tiktok" "linkedin" 
+            "github" "gitlab" "bitbucket" "openai" "anthropic" "deepmind" 
+            "vercel" "netlify" "heroku" "aws" "azure" "gcp" "cloudflare"
+            "adobe" "oracle" "ibm" "salesforce" "intel" "amd" "nvidia"
             
-            # Tech Brands
-            "google" "microsoft" "apple" "amazon" "facebook" "meta" "netflix"
-            "tesla" "twitter" "instagram" "tiktok" "linkedin" "github" "gitlab"
-            "openai" "anthropic" "deepmind" "vercel" "netlify" "heroku" "aws" "azure" "gcp"
-            
-            # Universities & Education
-            "harvard" "stanford" "mit" "oxford" "cambridge" "yale" "princeton"
+            "harvard" "stanford" "mit" "oxford" "cambridge" "yale" 
+            "princeton" "caltech" "berkeley" "columbia"
             "university" "college" "school" "academy" "institute"
             
-            # Explicit
-            "badword"
+            "badword" "scam" "phishing" "virus" "malware"
           )
           
           # Get changed files in the students directory

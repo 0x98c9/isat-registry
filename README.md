@@ -5,6 +5,8 @@
 
 This repository serves as the centralized database for student profiles displayed on [isat.college](https://isat.college). It contains JSON files representing individual student portfolios.
 
+![isat.college Demo](public/og-image.png)
+
 ## Directory Structure
 
 ```

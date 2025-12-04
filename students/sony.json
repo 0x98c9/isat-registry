@@ -45,6 +45,12 @@
       "techStack": ["Astro", "TypeScript", "Tailwind"]
     },
     {
+      "name": "isat-registry",
+      "description": "The open-source database for isat.college where students submit JSON profiles via Pull Request.",
+      "url": "https://github.com/0x98c9/isat-registry",
+      "techStack": ["JSON", "GitHub Actions", "Markdown"]
+    },
+    {
       "name": "CopyRegex",
       "description": "The ultimate open-source regex reference library for developers.",
       "url": "",

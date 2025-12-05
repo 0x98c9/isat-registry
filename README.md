@@ -245,6 +245,6 @@ isat.college is a **Git-backed student identity platform** that gives students:
 
 **Ready to claim your digital identity?**
 
-[![Create Your Profile](https://img.shields.io/badge/Create_Your_Profile-Get_Started-blue?style=for-the-badge&logo=react)](https://isat.college/claim)
+[![Create Your Profile](https://img.shields.io/badge/Create_Your_Profile-Get_Started-blue?style=for-the-badge)](https://isat.college/claim)
 
 </div>

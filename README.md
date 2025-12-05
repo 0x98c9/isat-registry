@@ -11,7 +11,7 @@
 
 This is the **public registry** for [isat.college](https://isat.college) - a Git-backed student identity platform. Every student profile lives here as a JSON file, giving you complete ownership and portability of your data.
 
-![isat.college Demo](public/isat-college-demo.png)
+
 
 ---
 

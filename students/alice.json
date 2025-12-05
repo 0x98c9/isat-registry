@@ -2,7 +2,7 @@
   "version": "1.0",
   "type": "portfolio",
   "config": {
-    "theme": "modern-dark",
+    "theme": "light-minimal",
     "accentColor": "#6366f1"
   },
   "profile": {

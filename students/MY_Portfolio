@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "type": "portfolio",
+  "config": {
+    "theme": "modern-dark",
+    "accentColor": "#3b82f6"
+  },
+  "profile": {
+    "name": "Mukhtiar shah",
+    "tagline": "Full Stack Developer",
+    "avatar": "",
+    "location": "Buner,Pukhtunkhwa Pakistan",
+    "email": "shahsaib256@gmail.com",
+    "resumeUrl": ""
+  },
+  "socials": [
+    {
+      "platform": "github",
+      "url": "github.com/MUKHTIARSHAH "
+    },
+    {
+      "platform": "linkedin",
+      "url": "linkedin.com/in/mukhtiar-shah-4567221aa"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of buner",
+      "degree": "BSCS",
+      "year": "2022-2026",
+      "grade": " CGPA : 3.31 out of 4"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "JavaScript",
+        "PHP",
+        "C#",
+        "C++",
+        "Python",
+        "HTML",
+        "CSS"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Modular Backend Deployment – Successfully Completed",
+      "description": "Developed and deployed a modular backend system supporting both mobile and web platforms. \nFocused on scalability, security, and complete documentation. \n• 92 mobile APIs + 100 web APIs \n• JWT-based authentication (HS256/RS256) with hash fallback \n• RBAC authorization system ",
+      "url": "",
+      "techStack": [
+        ""
+      ]
+    },
+    {
+      "name": "Backend Microservices Architecture ",
+      "description": "Designed and deployed Authentication, Error Logging, microservices in PHP/MySQL. \n• Integrated RESTful APIs using JSON-based communication. \n• Tested APIs with Postman and managed local deployment via XAMPP. ",
+      "url": "",
+      "techStack": []
+    },
+    {
+      "name": "Full Stack Web Development Projects ",
+      "description": "Built responsive web applications using PHP, JavaScript, MySQL, HTML5, CSS3, Bootstrap. \n• Developed a full E-commerce website with product catalog, shopping cart, order processing, and AI-powered \nfeatures (product recommendations & smart search). \n• Created a Travel Agency website with booking functionality and interactive UI. \n• Optimized backend performance, reducing response time by 30%. \n• Implemented secure user authentication and session management systems. ",
+      "url": "",
+      "techStack": []
+    }
+  ]
+}

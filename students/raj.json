@@ -1,0 +1,129 @@
+{
+    "version": "1.0",
+    "type": "portfolio",
+    "config": {
+        "theme": "modern-dark",
+        "accentColor": "#6366f1"
+    },
+    "profile": {
+        "name": "Sayed Anowar",
+        "tagline": "Coder X Designer",
+        "avatar": "https://sayedanowar.netlify.app/assets/img/DP.webp",
+        "location": "India",
+        "email": "dev.sayedanowar@gmail.com",
+        "resumeUrl": ""
+    },
+    "socials": [
+        {
+            "platform": "github",
+            "url": "https://github.com/iamsayedanowar"
+        },
+        {
+            "platform": "instagram",
+            "url": "https://www.instagram.com/iamsayedanowar/"
+        },
+        {
+            "platform": "website",
+            "url": "https://sayedanowar.netlify.app/"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Dumkal Institute Of Engineering & Technology (CSE)",
+            "degree": "Bachelor Of Technology",
+            "year": "2024-Present"
+        },
+        {
+            "institution": "Dumkal Polytechnic",
+            "degree": "Diploma In Engineering (CST)",
+            "year": "2021-2024"
+        },
+        {
+            "institution": "Nashipur High Madrasah (H.S.)",
+            "degree": "Higher Secondary Education",
+            "year": "2019-2021"
+        },
+        {
+            "institution": "Chak Islampur S.C.M. High School (H.S.)",
+            "degree": "Secondary Education",
+            "year": "2013-2019"
+        }
+    ],
+    "skills": [
+        {
+            "category": "Core",
+            "items": [
+                "JavaScript",
+                "TypeScript",
+                "React",
+                "Next.js"
+            ]
+        },
+        {
+            "category": "Styling",
+            "items": [
+                "CSS",
+                "Tailwind CSS"
+            ]
+        },
+        {
+            "category": "Tools",
+            "items": [
+                "VS Code",
+                "Vercel",
+                "Netlify",
+                "Render",
+                "Git"
+            ]
+        },
+        {
+            "category": "Focus Areas",
+            "items": [
+                "SaaS",
+                "Open Source",
+                "AI-Assisted Development",
+                "App Development"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "WebLlama",
+            "description": "An AI-Powered Website Builder Using OpenRouter API, Built With HTML, CSS, And JavaScript For Instant Site Creation.",
+            "url": "https://github.com/iamsayedanowar/WebLlama",
+            "techStack": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "OpenRouter",
+                "Netlify"
+            ]
+        },
+        {
+            "name": "Forecast24x7",
+            "description": "A Weather App Using OpenWeatherMap API, Built With HTML, CSS, And JavaScript For Real-time Weather Updates.",
+            "url": "https://github.com/iamsayedanowar/Full-fledged-Weather-App",
+            "techStack": [
+                "HTML",
+                "CSS",
+                "Vanilla JS",
+                "OpenWeatherMap",
+                "Netlify"
+            ]
+        },
+        {
+            "name": "SendP2P",
+            "description": "A P2P File-sharing App Built With HTML, CSS, JavaScript, Node.js, WebRTC, And WebSocket For Sharing Files Instantly",
+            "url": "https://github.com/iamsayedanowar/SendP2P",
+            "techStack": [
+                "HTML",
+                "CSS",
+                "Node.js",
+                "JavaScript",
+                "WebSocket",
+                "WebRTC",
+                "Render"
+            ]
+        }
+    ]
+}

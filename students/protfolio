@@ -1,0 +1,81 @@
+{
+  "version": "1.0.0",
+  "type": "portfolio",
+  "config": {
+    "theme": "modern-dark",
+    "accentColor": "#3b82f6"
+  },
+  "profile": {
+    "name": "Junkar Naim ",
+    "tagline": "Full Stack Devoloper",
+    "avatar": "https://github.com/0x98c9/isat-registry/blob/main/public/demo.png",
+    "location": "Murshidabad",
+    "email": "junkarnaim2@gmail.com",
+    "resumeUrl": ""
+  },
+  "socials": [
+    {
+      "platform": "github",
+      "url": "https://github.com/junkarnaim"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/junkar-naim-14773a249/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "DIET",
+      "degree": "CSE",
+      "year": "2023-24",
+      "grade": ""
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "JavaScript",
+        "TypeScript"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Gmail clone",
+      "description": "",
+      "url": "",
+      "techStack": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "techStack": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "techStack": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "techStack": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "techStack": []
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "techStack": []
+    }
+  ]
+}

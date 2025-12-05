@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "type": "portfolio",
+  "config": {
+    "theme": "modern-dark",
+    "accentColor": "#3b82f6"
+  },
+  "profile": {
+    "name": "Asrof Mondal ",
+    "tagline": "Creativity X Code",
+    "avatar": "",
+    "location": "India",
+    "email": "mondalasrof067@gmail.com",
+    "resumeUrl": ""
+  },
+  "socials": [
+    {
+      "platform": "github",
+      "url": ""
+    },
+    {
+      "platform": "linkedin",
+      "url": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Future Institute of Engineering & Management, Sonarpur",
+      "degree": "Bachelor of Technology (CSE-Data Science)",
+      "year": "2022-Present",
+      "grade": ""
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "React",
+        "Express.js",
+        "Node.js",
+        "MongoDB"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "url": "",
+      "techStack": []
+    }
+  ]
+}

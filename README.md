@@ -44,11 +44,15 @@ isat-registry/
 
 ## 🚀 How to Claim Your Profile
 
-### Option 1: Quick Create (Recommended)
+### Option 1: Profile Generator (Recommended)
 
-[![Create Profile Now](https://img.shields.io/badge/Create_Profile_Now-4CAF50?style=for-the-badge&logo=github&logoColor=white)](https://github.com/0x98c9/isat-registry/new/main/students)
+Use our interactive form to generate your profile JSON instantly.
 
-Click the button above to create your profile directly on GitHub.
+[![Open Profile Generator](https://img.shields.io/badge/Open_Profile_Generator-4CAF50?style=for-the-badge&logo=react&logoColor=white)](https://isat.college/claim)
+
+1. **Fill out the form** at [isat.college/claim](https://isat.college/claim)
+2. **Copy the generated JSON**
+3. **Click "Create Profile on GitHub"** to submit your PR
 
 ### Option 2: Manual Steps
 
@@ -241,6 +245,6 @@ isat.college is a **Git-backed student identity platform** that gives students:
 
 **Ready to claim your digital identity?**
 
-[![Create Your Profile](https://img.shields.io/badge/Create_Your_Profile-Get_Started-blue?style=for-the-badge&logo=github)](https://github.com/0x98c9/isat-registry/new/main/students)
+[![Create Your Profile](https://img.shields.io/badge/Create_Your_Profile-Get_Started-blue?style=for-the-badge&logo=react)](https://isat.college/claim)
 
 </div>

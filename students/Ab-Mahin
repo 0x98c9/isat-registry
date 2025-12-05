@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "type": "portfolio",
+  "config": {
+    "theme": "modern-dark",
+    "accentColor": "#3b82f6"
+  },
+  "profile": {
+    "name": "Abdullah Al Mahin",
+    "tagline": "Competitive Programmer",
+    "avatar": "https://github.com/Ab-mahin/MyPIC/blob/main/WhatsApp%20Image%202025-04-21%20at%2023.13.23.jpeg",
+    "location": "Dhaka, Bangladesh",
+    "email": "mahin.cse7.bu@gmail.com",
+    "resumeUrl": "https://drive.google.com/drive/folders/1KXgVwFn1RMCh1fi2LOUXrcgYkUgOL36R"
+  },
+  "socials": [
+    {
+      "platform": "github",
+      "url": "https://github.com/Ab-mahin"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/ab-mahin0/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Barisal",
+      "degree": "BSc of Computer Science & Engineering",
+      "year": "2000-2025",
+      "grade": "3.30"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "C++",
+        "Python",
+        "C#"
+      ]
+    },
+    {
+      "category": "Frame Work",
+      "items": [
+        "DotNet"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Paper",
+      "description": "Working on Real-Time DDoS attack detection using GNN Deep Learning Base model",
+      "url": "",
+      "techStack": [
+        "Python"
+      ]
+    }
+  ]
+}

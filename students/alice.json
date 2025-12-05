@@ -1,0 +1,66 @@
+{
+  "version": "1.0",
+  "type": "portfolio",
+  "config": {
+    "theme": "modern-dark",
+    "accentColor": "#6366f1"
+  },
+  "profile": {
+    "name": "Alice Johnson",
+    "tagline": "CS Student | Frontend Developer | Open Source",
+    "avatar": "https://github.com/alice.png",
+    "location": "New York, USA",
+    "email": "alice@example.com",
+    "resumeUrl": "https://registry.jsonresume.org/alice"
+  },
+  "socials": [
+    {
+      "platform": "github",
+      "url": "https://github.com/alice"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://linkedin.com/in/alice-johnson-demo"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://twitter.com/alice_dev"
+    }
+  ],
+  "education": [
+    {
+      "institution": "State University of Technology",
+      "degree": "B.Tech in Computer Science",
+      "year": "2024-2028",
+      "grade": "3.8 GPA"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": ["React", "Astro", "Tailwind CSS", "Framer Motion"]
+    },
+    {
+      "category": "Backend",
+      "items": ["Node.js", "Express", "Supabase"]
+    },
+    {
+      "category": "Tools",
+      "items": ["Git", "Figma", "Vercel"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "TaskFlow App",
+      "description": "A minimalist productivity dashboard for students to track assignments and deadlines.",
+      "url": "https://github.com/alice/taskflow",
+      "techStack": ["React", "Firebase", "Tailwind"]
+    },
+    {
+      "name": "WeatherView",
+      "description": "Real-time weather visualization tool using the OpenWeather API.",
+      "url": "https://weatherview-demo.vercel.app",
+      "techStack": ["Next.js", "Chart.js", "API Integration"]
+    }
+  ]
+}

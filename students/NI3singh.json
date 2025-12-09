@@ -1,0 +1,186 @@
+{
+  "version": "1.0.0",
+  "type": "portfolio",
+  "config": {
+    "theme": "modern-dark",
+    "accentColor": "#3b82f6"
+  },
+  "profile": {
+    "name": "Nitin Singh",
+    "tagline": "AI Engineer",
+    "avatar": "https://avatars.githubusercontent.com/u/115877777?s=400&u=336a3a63e43da20df2a3dd28ac48360b1eeca214&v=4",
+    "location": "Surat, INDIA",
+    "email": "itsnits333@gmail.com",
+    "resumeUrl": "https://portfolio-nitinsingh.vercel.app/Nitin_Singh_Resume.pdf"
+  },
+  "socials": [
+    {
+      "platform": "github",
+      "url": "https://github.com/NI3singh"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/nitinsinghr/"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://x.com/NitinSingh333"
+    },
+    {
+      "platform": "website",
+      "url": "https://portfolio-nitinsingh.vercel.app/"
+    },
+    {
+      "platform": "twitter",
+      "url": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Uka Tarsadia University",
+      "degree": "B.Tech Artificial Intelligence & Data Science",
+      "year": "2021-2025",
+      "grade": "82.46%"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "Python(advanced)",
+        "Javascript(basic)",
+        "C/C++ (basic)"
+      ]
+    },
+    {
+      "category": "Tools & Technology",
+      "items": [
+        "HTML",
+        "CSS",
+        "Node.js",
+        "Hugging Face",
+        "Power BI",
+        "Git",
+        "FastAPI",
+        "Flask",
+        "GitHub",
+        "Excel"
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "items": [
+        "Pandas",
+        "Numpy",
+        "Scikit-Learn",
+        "Matplolib",
+        "Tensorflow",
+        "Keras",
+        "PyTorch"
+      ]
+    },
+    {
+      "category": "Technical Domains",
+      "items": [
+        "Machine Learning",
+        "Deep Learning",
+        "OOP",
+        "Data Science",
+        "Computer Vision",
+        "NLP",
+        "GenAI",
+        "Manual Testing",
+        "IOT",
+        "Mongodb"
+      ]
+    },
+    {
+      "category": "Data Analysis & Visualization",
+      "items": [
+        "SQL",
+        "Pandas",
+        "Numpy",
+        "Scikit-learn",
+        "Exploratory Data Analysis (EDA)",
+        "Statistical Analysis",
+        "Data Cleaning"
+      ]
+    },
+    {
+      "category": "Databases & Cloud Platforms",
+      "items": [
+        "Snowflake",
+        "Google Cloud Platform (GCP)",
+        "AWS"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Face Recognition Web Application (Find You)",
+      "description": "• This is a Flask-based web application for face recognition. Users can upload or capture photos to find matched faces from a dataset. The\napp also provides options to download all matched photos as a zip file.\n• Ensuring Proper Security implementation by adding feature “Authorized access only by Password-Protected-Link”.\n• Achieved 96.3% face recognition accuracy on a diverse dataset of 500+ images.",
+      "url": "https://github.com/NI3singh/Find-You/tree/main",
+      "techStack": [
+        "RetinaFace",
+        "Facenet",
+        "Python",
+        "Flask"
+      ]
+    },
+    {
+      "name": "Solana Price Data Analysis",
+      "description": "• Analyzed over 1,300 days of historical market data to identify key drivers of price volatility and inform potential trading strategies.\n• Engineered a robust data pipeline to clean, process, and enrich the raw dataset with 25+ technical indicators (e.g., RSI, MACD), creating\na comprehensive foundation for analysis\n• Synthesized the enhanced 44-column dataset, which directly led to an 8% improvement in the predictive performance of a baseline\nmachine learning model.\n",
+      "url": "https://github.com/NI3singh/Solana-Data-Analysis",
+      "techStack": [
+        "Data Engineering",
+        "Data Science",
+        "Data Analysis"
+      ]
+    },
+    {
+      "name": "Retail Sales Analysis on Snowflake",
+      "description": "• Managed an end-to-end data analysis pipeline within Snowflake, processing over 1 million rows of Rossmann retail sales data to identify\nkey drivers for demand forecasting.\n• Executed data cleaning, preparation, and feature engineering entirely with SQL, handling missing values through imputation and creating\nnew features like IsWeekend and PromoMonthFlag.\n• Uncovered a critical business insight through Exploratory",
+      "url": "https://github.com/NI3singh/Snowflake-Project",
+      "techStack": [
+        "Snowflake",
+        "SQL"
+      ]
+    },
+    {
+      "name": "RAG-Based Financial Intelligence Agent",
+      "description": "• Developed a Retrieval-Augmented Generation (RAG) pipeline that aggregates real-time financial news from Polygon and Finviz APIs.\n• Optimized the RAG pipeline using semantic chunking strategies and vector embeddings to manage context window limits, ensuring highaccuracy retrieval for Gemini Pro.\n• Deployed the solution using Flask, handling dynamic context injection to ensure the LLM responses were grounded in live market data,\neliminating hallucinations.\nMulti-Agent Competitive Querying ",
+      "url": "https://stock-news-summarizer.onrender.com/",
+      "techStack": [
+        "Data Gen AI",
+        "RAG & Flask"
+      ]
+    },
+    {
+      "name": "Multi-Agent Competitive Querying System (AMD-AI-League)",
+      "description": "• Architected a Multi-Agent System comprising distinct ”Questioner” and ”Answerer” agents to simulate competitive information retrieval\nscenarios.\n• Implemented complex prompting strategies where the Question Agent generates context-aware queries and the Answer Agent retrieves and\nsynthesizes data to respond.\n• Designed the evaluation logic to score agent performance based on accuracy and relevance, laying the groundwork for automated negotiation systems.\n",
+      "url": "https://github.com/NI3singh/AMD-AI-Premiere-League-Hackathon",
+      "techStack": [
+        "Agentic AI & LLM Orchestration"
+      ]
+    },
+    {
+      "name": "Generative AI Image Pipeline & LoRA Fine-Tuning",
+      "description": "• Engineered an end-to-end image generation pipeline (AI-Avtaar) utilizing Stable Diffusion and Automatic1111 for high-fidelity character\ncreation.\n• Fine-tuned custom LoRA models and applied 4-bit Quantization techniques to optimize model inference latency and reduce memory usage\nduring deployment.\n• Integrated a Virtual Try-On module using Computer Vision (CatVTON), allowing users to overlay generated clothing onto custom avatars\nseamlessly.",
+      "url": "https://github.com/NI3singh/AI-Avtaar",
+      "techStack": [
+        "Deep Learning & Computer Vision"
+      ]
+    },
+    {
+      "name": "Auto-Doc - VS Code Extension",
+      "description": "• Developed a zero-configuration VS Code extension that automatically tracks and documents code changes in real-time, creating timestamped Markdown logs with precise line-by-line diffs (additions/removals with line numbers) to eliminate manual documentation effort for\ndevelopers.\n• Implemented intelligent diff detection algorithm that triggers on every file save, generating clean, readable change logs.",
+      "url": "https://github.com/NI3singh/Auto-Doc",
+      "techStack": [
+        "JavaScript",
+        "VS Code API",
+        "Markdown",
+        "Git Diff Algorithm"
+      ]
+    }
+  ]
+}

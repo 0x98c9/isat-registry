@@ -241,6 +241,15 @@ isat.college is a **Git-backed student identity platform** that gives students:
 
 ---
 
+## ⚠️ Privacy Notice
+**This registry is public.** The data you submit (name, links, bio) will be visible to anyone on the internet.
+
+* **Email:** We recommend using a dedicated "public" email or omitting it if you want to avoid spam.
+* **Resume:** Ensure your linked Resume PDF **does not** contain your home address or personal phone number.
+* **Sensitive Info:** Never commit passwords, government IDs, or private location data.
+
+---
+
 <div align="center">
 
 **Ready to claim your digital identity?**
